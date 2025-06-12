@@ -61,12 +61,12 @@
 
         Mouse {
             bindings = <
-&none        &none         &none         &none         &none      &none         &none       &none      &none         &none         &none         &none
-&none        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none      &bt BT_CLR    &bt BT_CLR  &none      &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &kp C_AC_COPY
-&none        &trans        &trans        &mkp MCLK     &trans     &none         &none       &trans     &mkp MCLK     &trans        &trans        &kp C_AC_PASTE
-&bootloader  &trans        &mkp RCLK     &mo 4         &mkp LCLK  &mo 5         &mo 5       &mkp LCLK  &mo 4         &mkp RCLK     &trans        &bootloader
-                                         &mo 5         &mkp LCLK  &mkp RCLK     &mkp RCLK   &mkp LCLK
-                                                       &none      &trans        &trans
+&none        &none         &none         &none            &none                &none         &none         &none       &none         &none         &none         &none
+&none        &bt BT_SEL 0  &bt BT_SEL 1  &msc SCRL_UP     &msc SCRL_DOWN       &bt BT_CLR    &bt BT_CLR    &none       &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &kp LG(C)
+&none        &trans        &trans        &msc MOVE_LEFT   &msc MOVE_RIGHT	   &trans        &none         &none       &trans        &mkp MCLK     &trans        &kp LG(V)
+&bootloader  &trans        &mkp RCLK     &mo 4            &mkp LCLK            &mo 5         &mo 5         &mkp LCLK   &mo 4         &mkp RCLK     &trans        &bootloader
+                                         &mo 5            &mkp LCLK            &mkp RCLK     &mkp RCLK     &mkp LCLK
+                                                          &none                &trans        &trans
             >;
         };
 
